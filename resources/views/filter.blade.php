@@ -32,7 +32,7 @@
             <div class="page-body">
                 <div class="container-xl" id="app">
 
-                    Source Code : https://github.com/jamalapriadi/operator-work-transaction-filter
+                    Source Code : <a href="https://github.com/jamalapriadi/operator-work-transaction-filter">https://github.com/jamalapriadi/operator-work-transaction-filter</a>
                     
                     <app-component></app-component>
                     
