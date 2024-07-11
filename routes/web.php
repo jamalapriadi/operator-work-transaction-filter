@@ -7,7 +7,7 @@ Route::get('/', function () {
     return view('filter');
 });
 
-Route::group(['prefix'=>'data'], function(){
+Route::group(['prefix'=>'data','middleware'=>['is_ajax']], function(){
     Route::controller(OperatorWorkController::class)->group(function(){
         Route::get('operator-work','index');
         Route::get('list-filters','list_filter');
